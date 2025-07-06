@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from pydantic import BaseModel
-from typing import Literal
+import re
 
 app = FastAPI(title="OpenAI Tool API")
 
